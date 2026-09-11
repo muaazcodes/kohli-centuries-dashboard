@@ -25,7 +25,7 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, r2_score
 
 CSV_PATH = "Virat_Kohli_100s.csv"
-PHOTO_PATH = "virat.jpg"
+PHOTO_PATH = "Virat.jpg"
 
 # ---------------------------------------------------------------
 # Page config + light styling
