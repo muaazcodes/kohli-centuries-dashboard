@@ -1,0 +1,117 @@
+# Virat Kohli Centenary Dataset (Generated from Virat_Kohli_100s.csv)
+metadata:
+  player_name: "Virat Kohli"
+  total_international_centuries: 85
+  total_ipl_centuries: 9
+  source_file: "Virat_Kohli_100s.csv"
+  compiled_on: "August 2026"
+
+centuries:
+  - id: 1
+    score: "107"
+    against: "Sri Lanka"
+    format: "ODI"
+    innings: 2
+    ground: "Eden Gardens, Kolkata"
+    venue: "Home"
+    date: "2009-12-24"
+    result: "Won"
+
+  - id: 2
+    score: "102*"
+    against: "Bangladesh"
+    format: "ODI"
+    innings: 2
+    ground: "Sher-e-Bangla Stadium, Mirpur"
+    venue: "Away"
+    date: "2010-01-11"
+    result: "Won"
+
+  - id: 3
+    score: "118"
+    against: "Australia"
+    format: "ODI"
+    innings: 2
+    ground: "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam"
+    venue: "Home"
+    date: "2010-10-20"
+    result: "Won"
+
+  - id: 12
+    score: "116"
+    against: "Australia"
+    format: "Test"
+    innings: 1
+    ground: "Adelaide Oval, Adelaide"
+    venue: "Away"
+    date: "2012-01-24"
+    result: "Lost"
+
+  - id: 14
+    score: "183"
+    against: "Pakistan"
+    format: "ODI"
+    innings: 2
+    ground: "Sher-e-Bangla Stadium, Mirpur"
+    venue: "Neutral"
+    date: "2012-03-18"
+    result: "Won"
+
+  - id: 45
+    score: "235"
+    against: "England"
+    format: "Test"
+    innings: 2
+    ground: "Wankhede Stadium, Mumbai"
+    venue: "Home"
+    date: "2016-12-08"
+    result: "Won"
+
+  - id: 71
+    score: "122*"
+    against: "Afghanistan"
+    format: "T20I"
+    innings: 1
+    ground: "Dubai International Cricket Stadium, Dubai"
+    venue: "Neutral"
+    date: "2022-09-08"
+    result: "Won"
+
+  - id: 80
+    score: "117"
+    against: "New Zealand"
+    format: "ODI"
+    innings: 1
+    ground: "Wankhede Stadium, Mumbai"
+    venue: "Home"
+    date: "2023-11-15"
+    result: "Won"
+
+  - id: ipl_1
+    score: "100"
+    against: "Gujarat Lions"
+    format: "IPL"
+    innings: 1
+    ground: "Saurashtra Cricket Association Stadium, Rajkot"
+    venue: "Away"
+    date: "2016-04-24"
+    result: "Lost"
+
+  - id: ipl_9
+    score: "113*"
+    against: "Rajasthan Royals"
+    format: "IPL"
+    innings: 1
+    ground: "Sawai Mansingh Stadium, Jaipur"
+    venue: "Away"
+    date: "2024-04-06"
+    result: "Lost"
+
+# Data schema for validation
+schema_definition:
+  id: "Unique string or integer for identification"
+  score: "String (allows '*' for not out records)"
+  against: "Country or IPL franchise name"
+  format: "Test / ODI / T20I / IPL"
+  innings: "1 or 2 indicating when the century was scored"
+  venue: "Home / Away / Neutral location classification"
